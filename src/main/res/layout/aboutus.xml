@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<include layout="@layout/toolbar"/>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@color/toolbarColor"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="关于我们   "-->
+            <!--android:textSize="20sp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            >
+
+
+    <TextView
+        android:paddingTop="50dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="智能 e 家"
+        android:textStyle="bold|italic"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ff1591ff"
+        />
+    <TextView
+
+        android:id="@+id/ourweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="官方网站"
+        android:textStyle="bold|italic"
+        android:textColor="#e1a05d39"
+        android:gravity="right"
+        android:padding="10dp"
+        />
+
+
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="软件作者：\n\n艾芳哲 常晏铭 韩中达 谢国栋"-->
+                <!--android:gravity="center"-->
+                <!--android:textStyle="italic|bold"-->
+                <!--android:textColor="#00aaaa"-->
+                <!--android:layout_gravity="center"-->
+                <!--/>-->
+            
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Copyright © A.X.C.H  "
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:textStyle="bold|italic"
+
+                />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jianjie"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:textStyle="bold|italic"
+
+        />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

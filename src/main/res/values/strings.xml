@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能 e 家</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="team_info">Copyright © 2016 转点软件技术工作室.  All Rights Reserved</string>
+    <string name="jianjie">该项目设计了一个智能家居系统，以stm32f4为核心网关，以CC2530无线单片机为辅，利用Wi-Fi网络以及Internet网实现智能手机对家居环境的信息采集和远程控制。智能家居系统的体系架构按照物联网的层次结构分为三层:数据感知层、网络层和应用层，分别采用了无线单片机技术、嵌入式技术和基于Android的移动终端与web互联网的开发技术。通过手机移动终端与web端，可以对家居住所进行远程视频监视以及防盗、防火自动监控与报警等功能，另外还具备智慧照明、智能窗帘开闭、智能厨房等综合控制能力，为家庭营造一种舒适安逸的生活氛围。该项目可以实现对家庭成员进行识别，可以达到方便家庭生活和保护家庭财产安全的目的；用户可以对该系统进行个性化的功能设置，实现满足不同人群的需求。
+</string>
+    <string name="teamlogo">智能 e 家，带给您的不仅仅是家</string>
+
+</resources>

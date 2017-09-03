@@ -1,0 +1,83 @@
+{
+    "error": 0,
+    "status": "success",
+    "date": "2016-08-06",
+    "results": [
+        {
+            "currentCity": "曹县",
+            "pm25": "",
+            "index": [
+                {
+                    "title": "穿衣",
+                    "zs": "热",
+                    "tipt": "穿衣指数",
+                    "des": "天气热，建议着短裙、短裤、短薄外套、T恤等夏季服装。"
+                },
+                {
+                    "title": "洗车",
+                    "zs": "不宜",
+                    "tipt": "洗车指数",
+                    "des": "不宜洗车，未来24小时内有雨，如果在此期间洗车，雨水和路上的泥水可能会再次弄脏您的爱车。"
+                },
+                {
+                    "title": "旅游",
+                    "zs": "一般",
+                    "tipt": "旅游指数",
+                    "des": "有降水，稍热，微风，旅游指数一般，外出请尽量避开降雨时间，若外出，请注意防雷并携带雨具。"
+                },
+                {
+                    "title": "感冒",
+                    "zs": "少发",
+                    "tipt": "感冒指数",
+                    "des": "各项气象条件适宜，发生感冒机率较低。但请避免长期处于空调房间中，以防感冒。"
+                },
+                {
+                    "title": "运动",
+                    "zs": "较不宜",
+                    "tipt": "运动指数",
+                    "des": "有降水，推荐您在室内进行健身休闲运动；若坚持户外运动，须注意携带雨具并注意避雨防滑。"
+                },
+                {
+                    "title": "紫外线强度",
+                    "zs": "中等",
+                    "tipt": "紫外线强度指数",
+                    "des": "属中等强度紫外线辐射天气，外出时建议涂擦SPF高于15、PA+的防晒护肤品，戴帽子、太阳镜。"
+                }
+            ],
+            "weather_data": [
+                {
+                    "date": "周六 08月06日 (实时：25℃)",
+                    "dayPictureUrl": "http://api.map.baidu.com/images/weather/day/leizhenyu.png",
+                    "nightPictureUrl": "http://api.map.baidu.com/images/weather/night/duoyun.png",
+                    "weather": "雷阵雨转多云",
+                    "wind": "东北风微风",
+                    "temperature": "30 ~ 23℃"
+                },
+                {
+                    "date": "周日",
+                    "dayPictureUrl": "http://api.map.baidu.com/images/weather/day/leizhenyu.png",
+                    "nightPictureUrl": "http://api.map.baidu.com/images/weather/night/leizhenyu.png",
+                    "weather": "雷阵雨",
+                    "wind": "东北风微风",
+                    "temperature": "30 ~ 23℃"
+                },
+                {
+                    "date": "周一",
+                    "dayPictureUrl": "http://api.map.baidu.com/images/weather/day/duoyun.png",
+                    "nightPictureUrl": "http://api.map.baidu.com/images/weather/night/duoyun.png",
+                    "weather": "多云",
+                    "wind": "东北风微风",
+                    "temperature": "31 ~ 23℃"
+                },
+                {
+                    "date": "周二",
+                    "dayPictureUrl": "http://api.map.baidu.com/images/weather/day/qing.png",
+                    "nightPictureUrl": "http://api.map.baidu.com/images/weather/night/qing.png",
+                    "weather": "晴",
+                    "wind": "东风微风",
+                    "temperature": "31 ~ 23℃"
+                }
+            ]
+        }
+    ]
+}

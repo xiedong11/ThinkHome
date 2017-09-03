@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@color/toolbarColor"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="云笔记  "-->
+            <!--android:textSize="20sp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--/>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center|right"-->
+            <!--android:gravity="right"-->
+            <!--&gt;-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/clear"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=""-->
+            <!--android:textSize="15sp"-->
+            <!--android:layout_gravity="center|right"-->
+            <!--android:padding="10dp"-->
+            <!--android:textStyle="bold|italic"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--/>-->
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+    <include layout="@layout/toolbar"/>
+    <TextView
+        android:id="@+id/scandata"
+        android:paddingTop="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:text="查看\n云记事"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:background="@drawable/shape_textview"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/content"
+        android:padding="10dp"
+        android:textColor="#aa690609"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        />
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="bottom"
+        >
+
+        <EditText
+            android:id="@+id/edcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+             android:hint="请输入您要存储的内容"
+            />
+        <Button
+            android:id="@+id/commit"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="存入云端"
+            android:background="@drawable/button"
+            />
+        </LinearLayout>
+
+</LinearLayout>

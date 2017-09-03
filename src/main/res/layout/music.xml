@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:background="@color/toolbarColor"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="家庭娱乐   "-->
+            <!--android:layout_gravity="center"-->
+            <!--android:padding="10dp"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="#FFFFFF"-->
+            <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <include layout="@layout/toolbar"/>
+    <ImageView
+        android:paddingTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mp3"
+        />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center|bottom"
+                >
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:cardBackgroundColor="#f756a123"
+                    card_view:cardCornerRadius="20dp"
+                    card_view:cardPreventCornerOverlap="true"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:contentPadding="5dp">
+                    <TextView
+                        android:id="@+id/add_volume"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="增加音量"
+                        android:textColor="#FFFFFF"
+
+                        />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center|bottom"
+                >
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:cardBackgroundColor="#f756a123"
+                    card_view:cardCornerRadius="20dp"
+                    card_view:cardPreventCornerOverlap="true"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:contentPadding="5dp">
+                    <TextView
+                        android:id="@+id/up_song"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="上一首"
+                        android:textColor="#FFFFFF"
+
+                        />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:cardBackgroundColor="#f756a123"
+                    card_view:cardCornerRadius="20dp"
+                    card_view:cardPreventCornerOverlap="true"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:contentPadding="5dp">
+                    <TextView
+                        android:id="@+id/play"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="暂停\播放"
+                        android:textColor="#FFFFFF"
+
+                        />
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:cardBackgroundColor="#f756a123"
+                    card_view:cardCornerRadius="20dp"
+                    card_view:cardPreventCornerOverlap="true"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:contentPadding="5dp">
+                    <TextView
+                        android:id="@+id/next_song"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="下一首"
+                        android:textColor="#FFFFFF"
+
+                        />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center|bottom"
+                >
+                <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:cardBackgroundColor="#f756a123"
+                    card_view:cardCornerRadius="20dp"
+                    card_view:cardPreventCornerOverlap="true"
+                    card_view:cardUseCompatPadding="true"
+                    card_view:contentPadding="5dp">
+                    <TextView
+                        android:id="@+id/decrease_volune"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="减小音量"
+                        android:textColor="#FFFFFF"
+
+                        />
+                </android.support.v7.widget.CardView>
+            </LinearLayout>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
